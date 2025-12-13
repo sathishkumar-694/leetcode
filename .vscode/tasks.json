@@ -1,0 +1,16 @@
+
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Java with input/output",
+      "type": "shell",
+      "command": "javac \"${file}\" && java -cp \"${fileDirname}\" ${fileBasenameNoExtension} < \"${workspaceFolder}/input.txt\" > \"${workspaceFolder}/output.txt\"",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
+
