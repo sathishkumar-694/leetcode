@@ -1,1 +1,8 @@
-1 2 3 888 5 6 999 8 
+Element 8 deleted successfully
+Current list:1 2 3 888 5 6 999 
+Element 30 inserted at position 3
+Current list:1 2 3 30 888 5 6 999 
+Element inserted before the given value
+Current list:1 2 3 30 888 5 6 999 10 
+Current list:10 999 6 5 888 30 3 2 1 
+Current list:1 2 3 30 888 5 6 999 10 
